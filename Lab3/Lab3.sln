@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab3", "Lab3.vcxproj", "{1470BA63-226D-4555-A173-CCBE92FC97A4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab3", "Lab3.vcxproj", "{2AF1A5FF-6358-4F2A-BCE2-45714CA99F1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +13,19 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1470BA63-226D-4555-A173-CCBE92FC97A4}.Debug|x64.ActiveCfg = Debug|x64
-		{1470BA63-226D-4555-A173-CCBE92FC97A4}.Debug|x64.Build.0 = Debug|x64
-		{1470BA63-226D-4555-A173-CCBE92FC97A4}.Debug|x86.ActiveCfg = Debug|Win32
-		{1470BA63-226D-4555-A173-CCBE92FC97A4}.Debug|x86.Build.0 = Debug|Win32
-		{1470BA63-226D-4555-A173-CCBE92FC97A4}.Release|x64.ActiveCfg = Release|x64
-		{1470BA63-226D-4555-A173-CCBE92FC97A4}.Release|x64.Build.0 = Release|x64
-		{1470BA63-226D-4555-A173-CCBE92FC97A4}.Release|x86.ActiveCfg = Release|Win32
-		{1470BA63-226D-4555-A173-CCBE92FC97A4}.Release|x86.Build.0 = Release|Win32
+		{2AF1A5FF-6358-4F2A-BCE2-45714CA99F1C}.Debug|x64.ActiveCfg = Debug|x64
+		{2AF1A5FF-6358-4F2A-BCE2-45714CA99F1C}.Debug|x64.Build.0 = Debug|x64
+		{2AF1A5FF-6358-4F2A-BCE2-45714CA99F1C}.Debug|x86.ActiveCfg = Debug|Win32
+		{2AF1A5FF-6358-4F2A-BCE2-45714CA99F1C}.Debug|x86.Build.0 = Debug|Win32
+		{2AF1A5FF-6358-4F2A-BCE2-45714CA99F1C}.Release|x64.ActiveCfg = Release|x64
+		{2AF1A5FF-6358-4F2A-BCE2-45714CA99F1C}.Release|x64.Build.0 = Release|x64
+		{2AF1A5FF-6358-4F2A-BCE2-45714CA99F1C}.Release|x86.ActiveCfg = Release|Win32
+		{2AF1A5FF-6358-4F2A-BCE2-45714CA99F1C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {915C59E6-1E18-4110-96B0-D7116BE469BF}
+		SolutionGuid = {98A4BD3C-E6E6-4F05-AFC9-5D994125877B}
 	EndGlobalSection
 EndGlobal

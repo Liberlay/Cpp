@@ -10,11 +10,12 @@
 using namespace std;
 
 // Задача 19 среднего уровня
-void task19() {
+void task1() {
 
 
 	char ch[15]; // Hello Wordl Oh
 	cout << "Enter 14 symbols:";
+	cin.ignore(std::cin.rdbuf()->in_avail());
 	cin.getline(ch, 15);
 
 	int lengthArray = 0;
@@ -45,7 +46,7 @@ void task19() {
 }
 
 // Задача 11 среднего уровня
-void task11()
+void task2()
 {
 
 	char chA[100]; // bbb aaa aaaabba baba
@@ -69,7 +70,7 @@ void task11()
 }
 
 // Задача 19 выского уровня
-void task193() {
+void task3() {
 	//char str[200] = "Function strtok searches for tokens in a row string. The sequence of calls to this function, a line break string into tokens, which represent a sequence of symbols, separated by comma";
 	char str[200] = "noitcnuF kotrts sehcraes rof snekot ni a wor gnirts. ehT ecneuqes fo sllac ot siht noitcnuf, a enil kaerb gnirts otni snekot, hcihw tneserper a ecneuqes fo slobmys, detarapes yb ammoc";
 	cout << "Each word of this string need to be reversed:\n" << str;
@@ -104,19 +105,19 @@ void task193() {
 
 void chooseTask() {
 	int taskNumber;
-	cout << "Choose task number(19, 11, 193):";
+	cout << "Choose task number(1 - medium, 2 - medium, 3 - hard:";
 	cin >> taskNumber;
 	switch (taskNumber) {
-	case 19:
-		task19();
+	case 1:
+		task1();
 		break;
 
-	case 11:
-		task11();
+	case 2:
+		task2();
 		break;
 
-	case 193:
-		task193();
+	case 3:
+		task3();
 		break;
 
 	default:
